@@ -1,0 +1,48 @@
+TO SETUP A REPO ON MACHINE:
+(Set current directory to directory that you want to make into repo)
+git init
+
+SETTING UP GIT ACCOUNT CONFIGURATION:
+git config --global user.name "Matias Altman"
+git config --global user.email matiasa123@gmail.com
+git config --global core.editor vim
+
+TO VIEW CONFIG:
+git config --list
+
+TO UNDO GIT INIT:
+rm -rf .git
+
+TO ADD A REPOSITORY FROM MACHINE TO GITREPO:
+(cd to addable directory)
+git init
+
+TO ADD AN EXISTING REPO TO MACHINE:
+git clone <GIT URL>
+
+TO CHECK WHAT FILES HAVE BEEN CHANGED:
+git status
+
+TO SEE WHAT CHANGES HAVE BEEN MADE TO FILE:
+git diff
+
+TO ADD CHANGES:
+git commit -a
+git push
+
+TO ADD FILE TO REPOSITORY:
+vim <file>
+git add <file>
+git commit 
+git push
+
+TO CHANGE FOLDER NAME
+git mv <OldName> <NewName>
+
+TO ADD FOLDER TO GIT INDEX
+git add -u <Folder> 
+git commit -m "<message to impart>"
+
+HELPFUL RESOURCES:
+http://git-scm.com/book
+http://gitimmersion.com/

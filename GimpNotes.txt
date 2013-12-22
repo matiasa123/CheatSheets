@@ -1,0 +1,7 @@
+TO CONVERT PDF TO PNG:
+file->export or ctrl+Shift+E
+Type <name>.png
+Click Save
+
+TO CALL CROPPING TOOL:
+Shift+C
