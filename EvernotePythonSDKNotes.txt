@@ -1,0 +1,8 @@
+To allow the use of EvernoteClient
+>>> from evernote.api.client import EvernoteClient
+
+To allow the use of Types Object
+>>> import evernote.edam.type.ttypes as Types
+
+QuickStart Guide (https://dev.evernote.com/doc/start/python.php#)
+
